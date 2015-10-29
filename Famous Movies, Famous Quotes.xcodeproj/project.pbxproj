@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A92F3E9F1AA3E77C00823F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F3E9E1AA3E77C00823F24 /* AppDelegate.swift */; };
-		A92F3EA11AA3E77C00823F24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F3EA01AA3E77C00823F24 /* ViewController.swift */; };
 		A92F3EA41AA3E77C00823F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92F3EA21AA3E77C00823F24 /* Main.storyboard */; };
 		A92F3EA61AA3E77C00823F24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92F3EA51AA3E77C00823F24 /* Images.xcassets */; };
 		A92F3EA91AA3E77C00823F24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92F3EA71AA3E77C00823F24 /* LaunchScreen.xib */; };
 		A92F3EB51AA3E77D00823F24 /* Famous_Movies__Famous_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F3EB41AA3E77D00823F24 /* Famous_Movies__Famous_QuotesTests.swift */; };
+		A92F3EBF1AA3E7B800823F24 /* FamousMoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F3EBE1AA3E7B800823F24 /* FamousMoviesTableViewController.swift */; };
+		A92F3EC11AA3E7D600823F24 /* FamousQuotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F3EC01AA3E7D600823F24 /* FamousQuotesTableViewController.swift */; };
+		A92F3EC31AA3E7F200823F24 /* FamousMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F3EC21AA3E7F200823F24 /* FamousMovie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		A92F3E991AA3E77C00823F24 /* Famous Movies, Famous Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Famous Movies, Famous Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92F3E9D1AA3E77C00823F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92F3E9E1AA3E77C00823F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A92F3EA01AA3E77C00823F24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A92F3EA31AA3E77C00823F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A92F3EA51AA3E77C00823F24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A92F3EA81AA3E77C00823F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A92F3EAE1AA3E77D00823F24 /* Famous Movies, Famous QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Famous Movies, Famous QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92F3EB31AA3E77D00823F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92F3EB41AA3E77D00823F24 /* Famous_Movies__Famous_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Famous_Movies__Famous_QuotesTests.swift; sourceTree = "<group>"; };
+		A92F3EBE1AA3E7B800823F24 /* FamousMoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamousMoviesTableViewController.swift; sourceTree = "<group>"; };
+		A92F3EC01AA3E7D600823F24 /* FamousQuotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamousQuotesTableViewController.swift; sourceTree = "<group>"; };
+		A92F3EC21AA3E7F200823F24 /* FamousMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamousMovie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				A92F3E9E1AA3E77C00823F24 /* AppDelegate.swift */,
-				A92F3EA01AA3E77C00823F24 /* ViewController.swift */,
 				A92F3EA21AA3E77C00823F24 /* Main.storyboard */,
 				A92F3EA51AA3E77C00823F24 /* Images.xcassets */,
 				A92F3EA71AA3E77C00823F24 /* LaunchScreen.xib */,
 				A92F3E9C1AA3E77C00823F24 /* Supporting Files */,
+				A92F3EBE1AA3E7B800823F24 /* FamousMoviesTableViewController.swift */,
+				A92F3EC01AA3E7D600823F24 /* FamousQuotesTableViewController.swift */,
+				A92F3EC21AA3E7F200823F24 /* FamousMovie.swift */,
 			);
 			path = "Famous Movies, Famous Quotes";
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92F3EA11AA3E77C00823F24 /* ViewController.swift in Sources */,
+				A92F3EC31AA3E7F200823F24 /* FamousMovie.swift in Sources */,
+				A92F3EBF1AA3E7B800823F24 /* FamousMoviesTableViewController.swift in Sources */,
 				A92F3E9F1AA3E77C00823F24 /* AppDelegate.swift in Sources */,
+				A92F3EC11AA3E7D600823F24 /* FamousQuotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

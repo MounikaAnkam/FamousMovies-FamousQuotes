@@ -2,8 +2,8 @@
 //  Famous_Movies__Famous_QuotesTests.swift
 //  Famous Movies, Famous QuotesTests
 //
-//  Created by Rohit on 3/1/15.
-//  Copyright (c) 2015 Santhoshi. All rights reserved.
+//  Created by Mounika Ankam on 3/1/15.
+//  Copyright (c) 2015 Mounika Ankam. All rights reserved.
 //
 
 import UIKit
